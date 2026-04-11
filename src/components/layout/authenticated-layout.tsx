@@ -6,10 +6,6 @@ import { Main } from './main'
 import { Outlet } from '@tanstack/react-router'
 import { cn } from '#/lib/utils'
 import { Header } from './header'
-import { ProfileDropdown } from '../profile-dropdown'
-import { ThemeSwitch } from '../theme-switch'
-import { Search } from '../search'
-import { Breadcrumbs } from './breadcrumbs'
 
 interface AuthenticatedLayoutProps {
   children?: ReactNode
